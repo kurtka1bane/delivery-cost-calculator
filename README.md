@@ -8,14 +8,16 @@
 - JUnit 5
 
 ## 🚀 Запуск тестов
-```bash```
+```bash
 mvn test
+```
 
 ## 📦 Отчёты
 
 Результаты тестов выводятся в консоль.
 
 ## 📁 Структура проекта
+```bash
   delivery-cost-calculator/
 ├── src/
 │   ├── main/
@@ -24,6 +26,7 @@ mvn test
 │       └── java/deliveryService/
 ├── pom.xml
 └── README.md
+```
 
 ## ✅ Покрытие тестами
 
@@ -44,3 +47,4 @@ int cost = DeliveryService.calculateDeliveryCost(
     true,
     LoadLevel.HIGH
 );
+```
